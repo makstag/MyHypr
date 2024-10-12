@@ -1,4 +1,4 @@
-# MyHypr
+# MyHypr fedora
 enable right mouse click  
 ```sh
 gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'

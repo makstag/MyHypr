@@ -4,27 +4,32 @@
     "height": 24, // Waybar height
     // "width": 1366, // Waybar width
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces", "sway/mode", "custom/spotify"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "tray", "clock"],
-    "sway/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": false,
-        "format": "{icon}",
-        "format-icons": {
-            "1:web": "",
-            "2:code": "",
-            "3:term": "",
-            "4:work": "",
-            "5:music": "",
-            "6:docs": "",
-            "urgent": "",
-            "focused": "",
-            "default": ""
-        }
-    },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
+    "modules-left": ["hyprland/workspaces"],
+    // "modules-center": ["sway/window"],
+    "modules-right": ["hyprland/language", "pulseaudio", "network", "cpu", "memory", "battery", "tray", "clock"],
+    "hyprland/workspaces": {
+        "active-only":false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"show-special": false,
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+        "persistent-workspaces": {
+            "*": 5
+	},
+	"format-icons": {
+	    "1": "One",
+	    "2": "Two",
+	    "3": "Three",
+	    "4": "Four",
+	    "5": "Five",
+	    "6":"Six",
+	    "7":"Seven",
+	    "8":"Eight",
+	    "9":"Nine",
+	    "10":"Ten"
+	}
     },
     "tray": {
         // "icon-size": 21,
@@ -41,6 +46,7 @@
     },
     "hyprland/language": {
     	"format": " {}",
+    	"min-length" : 5,
     	"format-en": "EN",
 	"format-ru": "RU",
     },
@@ -74,12 +80,5 @@
             "default": ["", ""]
         },
         "on-click": "pavucontrol"
-    },
-    "custom/spotify": {
-        "format": " {}",
-        "max-length": 40,
-        "interval": 30, // Remove this if your script is endless and write in loop
-        "exec": "$HOME/.config/waybar/mediaplayer.sh 2> /dev/null", // Script in resources folder
-        "exec-if": "pgrep spotify"
     }
 }

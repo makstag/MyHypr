@@ -18,7 +18,7 @@ sudo dnf install -y xdg-desktop-portal-hyprland hyprwayland-scanner hyprpaper wa
 
 clone config  
 ```sh
-git clone https://github.com/makstag/MyHypr.git ~/.config
+git clone --depth=1 https://github.com/makstag/MyHypr.git ~/.config
 ```  
 
 check devices  

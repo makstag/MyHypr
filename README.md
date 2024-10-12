@@ -2,6 +2,7 @@
 enable right mouse click  
 ```sh
 gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
+sudo dnf -y update
 ```
 
 install hyprland  

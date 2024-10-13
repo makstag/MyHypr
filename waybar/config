@@ -5,7 +5,7 @@
     // "width": 1366, // Waybar width
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
-    // "modules-center": ["sway/window"],
+    "modules-center": ["sway/window"],
     "modules-right": ["hyprland/language", "pulseaudio", "network", "cpu", "memory", "battery", "tray", "clock"],
     "hyprland/workspaces": {
         "active-only":false,
@@ -27,6 +27,10 @@
 	    "9":"Nine",
 	    "10":"Ten"
 	}
+    },
+    "sway/window": {
+        "format": "{}",
+        "max-length": 120
     },
     "tray": {
         // "icon-size": 21,

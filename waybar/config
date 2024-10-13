@@ -2,6 +2,7 @@
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar at the bottom of your screen
     "height": 24, // Waybar height
+    "output": "eDP-1",
     // "width": 1366, // Waybar width
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
@@ -46,7 +47,7 @@
         "format": "{}% "
     },
     "hyprland/language": {
-    	"format": " {}",
+    	"format": "{} ",
     	"min-length" : 5,
     	"format-en": "EN",
 	"format-ru": "RU",

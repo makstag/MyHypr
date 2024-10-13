@@ -7,7 +7,7 @@ sudo dnf -y update
 
 install hyprland  
 ```sh
-sudo dnf copr enable solopasha/hyprland
+sudo dnf copr enable solopasha/hyprland -y
 sudo dnf install -y hyprland
 ```
 

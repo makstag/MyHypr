@@ -1,4 +1,14 @@
-# MyHypr fedora
+# MyHypr fedora  
+Monitor 1920x1080  
+<div align="center">
+    <img src="monitor1.png" style="margin: auto"/>
+</div>  
+
+Monitor 3440x1440  
+<div align="center">
+    <img src="monitor2.png" style="margin: auto"/>
+</div>  
+
 enable right mouse click  
 ```sh
 gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
@@ -13,7 +23,7 @@ sudo dnf install -y hyprland
 
 install dependencies  
 ```sh
-sudo dnf install -y xdg-desktop-portal-hyprland hyprwayland-scanner hyprpaper waybar dolphin hyprlock nm-applet hyprcursor
+sudo dnf install -y xdg-desktop-portal-hyprland hyprwayland-scanner hyprpaper waybar dolphin hyprlock nm-applet hyprcursor hyprshot
 ```  
 
 clone config  
@@ -25,3 +35,5 @@ check devices
 ```sh
 hyprctl devices
 ```
+# Useful  
+https://wiki.hyprland.org/FAQ/#how-do-i-change-me-mouse-cursor  

@@ -36,4 +36,4 @@ check devices
 hyprctl devices
 ```
 # Useful  
-https://wiki.hyprland.org/FAQ/#how-do-i-change-me-mouse-cursor  
+https://wiki.hyprland.org/FAQ  

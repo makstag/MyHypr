@@ -13,7 +13,7 @@ sudo dnf install -y hyprland
 
 install dependencies  
 ```sh
-sudo dnf install -y xdg-desktop-portal-hyprland hyprwayland-scanner hyprpaper waybar dolphin hyprlock nm-applet
+sudo dnf install -y xdg-desktop-portal-hyprland hyprwayland-scanner hyprpaper waybar dolphin hyprlock nm-applet hyprcursor
 ```  
 
 clone config  

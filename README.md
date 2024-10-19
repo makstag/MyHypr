@@ -34,6 +34,10 @@ git clone --depth=1 https://github.com/makstag/MyHypr.git ~/.config
 check devices  
 ```sh
 hyprctl devices
+```  
+check monitors  
+```sh
+hyprctl monitors
 ```
 # Useful  
 https://wiki.hyprland.org/FAQ  

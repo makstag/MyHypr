@@ -41,4 +41,4 @@ hyprctl monitors
 ```
 # Useful  
 https://wiki.hyprland.org/FAQ  
-[keymap](https://github.com/makstag/MyHypr/blob/9b81aa97a7e81a634b00edbe69882fe5811013d0/hypr/hyprland.conf#L191)
+[keymap...](https://github.com/makstag/MyHypr/blob/9b81aa97a7e81a634b00edbe69882fe5811013d0/hypr/hyprland.conf#L191)

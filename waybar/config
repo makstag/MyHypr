@@ -20,8 +20,8 @@
             "*": 5
 	},
 	"format-icons": {
-	    "1": "One",
-	    "2": "Two",
+	    "1": "Terminal",
+	    "2": "Firefox",
 	    "3": "Three",
 	    "4": "Four",
 	    "5": "Five",
